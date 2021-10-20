@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page of Jerome PA</title>
+    <?php include('layout/config.boostrap1.php');?>
+</head>
+<body>
+<header class="container-fluid bg-header pt-2 pb-2">
+   <div class="container">
+        <a href="#"><img src="../Image_design/logo.jpg" alt="../Image/logo.jpg"></a>
+        <a hreft="#" class="btn btn-danger">Logout</a>
+   </div>
+</header>
+<section>
+    <div class="container pt-5">
+        <h1>Employee Record</h1>
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                <th scope="col">ID</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody class="thead-light">
+                <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<footer class="container-fluid">
+</footer>
+<?php include('layout/config.boostrap2.php'); ?>
+</body>
+</html>
+  
