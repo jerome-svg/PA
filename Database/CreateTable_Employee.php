@@ -1,5 +1,8 @@
 <?php
 
+
+
+    // This is the code for creating a table Employee
     include('DB_connection.php');
     
 

@@ -1,5 +1,7 @@
 <?php
 
+       // This is the code for creating a table User
+
     include('DB_connection.php');
     
 

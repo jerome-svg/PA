@@ -1,3 +1,16 @@
+<?php 
+
+
+	session_start();
+
+    // If the session is exist you can't access this code bacause the header location will redirect you to the Homepage
+
+	if(isset($_SESSION['Email'])){
+        header("location: http://localhost/PHP_PA/PHP_file/Homepage.php");
+	}
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

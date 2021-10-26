@@ -1,4 +1,22 @@
+<?php 
+    
+
+    // If the session is Exist the you can access this code for login
+
+	session_start();
+
+	if(isset($_SESSION['Email'])){
+        
+
+		// header("location: http://localhost/PHP_PA/PHP_file/Homepage.php");
+
+	}
+
+ ?>
+
 <?php
+
+
 
     
     include('../Database/DB_connection.php');
@@ -30,6 +48,7 @@
                 $email = $password_hush['email'];
                 $name = $password_hush['firstname'];
 
+                // This is the code for creating a session variable for identifying you is the user 
                 $_SESSION['Email'] = $email;
                 $_SESSION['username'] = $name;
                 
